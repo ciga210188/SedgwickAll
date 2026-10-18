@@ -19,3 +19,9 @@ node_modules/
 .commandcode/
 .playwright-cli/
 .playwright-mcp/
+
+Docker
+.dockerignore
+/docker-compose.yml
+/docker-entrypoint.sh
+/Dockerfile
