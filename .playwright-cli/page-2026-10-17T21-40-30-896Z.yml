@@ -1,0 +1,35 @@
+- generic [active] [ref=e1]:
+  - img "Sedgwick Homepage" [ref=e2]
+  - main "Login" [ref=e3]:
+    - generic [ref=e5]:
+      - link [ref=e9] [cursor=pointer]:
+        - /url: /Login
+        - img "Sedgwick Homepage" [ref=e10]
+      - generic [ref=e14]:
+        - heading "Login" [level=1] [ref=e16]
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - generic [aria-hidden] [ref=e19]: 
+            - textbox "Username" [ref=e20]
+            - generic [ref=e21]: Username
+          - generic [ref=e22]:
+            - generic [aria-hidden] [ref=e23]: 
+            - textbox "Password" [ref=e24]
+            - generic [ref=e25]: Password
+          - link "Forgot Your Password?" [ref=e27] [cursor=pointer]:
+            - /url: /Account/ForgotPassword
+          - link "Forgot Username?" [ref=e29] [cursor=pointer]:
+            - /url: /Account/ForgotUserName
+          - button "BEGIN" [ref=e31] [cursor=pointer]
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - link "Privacy Notice" [ref=e35] [cursor=pointer]:
+              - /url: https://www.sedgwick.com/privacy
+            - text: "|"
+          - link "Terms & Conditions" [ref=e37] [cursor=pointer]:
+            - /url: https://www.sedgwick.com/termsandconditions
+        - generic [ref=e38]: © 2026 Sedgwick Claims Management Services Inc.
+  - generic [ref=e54] [cursor=pointer]:
+    - button "Manage cookie preferences" [ref=e56]
+    - text: Manage Cookies

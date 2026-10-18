@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "RedirectUrl",
+    "AsyncProcessing",
+    "Type",
+    "State",
+    "IntakeInstanceId",
+    "ConfirmationNumber",
+    "IncidentNumber",
+    "Validations",
+    "Warnings",
+    "IsValid"
+  ],
+  "properties": {
+    "RedirectUrl": {
+      "type": "string",
+      "minLength": 1
+    },
+    "AsyncProcessing": {},
+    "Type": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "IntakeInstanceId": {
+      "type": "string"
+    },
+    "ConfirmationNumber": {
+      "type": "string"
+    },
+    "IncidentNumber": {
+      "type": "string"
+    },
+    "Validations": {
+      "type": "object"
+    },
+    "Warnings": {
+      "type": "object"
+    },
+    "IsValid": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true
+}

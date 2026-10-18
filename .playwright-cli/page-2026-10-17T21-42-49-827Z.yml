@@ -1,0 +1,287 @@
+- generic [active] [ref=f3e1]:
+  - banner:
+    - list [ref=f3e3]:
+      - listitem [ref=f3e4]:
+        - img "Company Logo" [ref=f3e7]
+      - listitem [ref=f3e8]:
+        - list [aria-hidden] [ref=f3e9]:
+          - listitem [ref=f3e10]:
+            - link [ref=f3e11] [cursor=pointer]:
+              - /url: /Login/Home
+              - generic [ref=f3e12]: 
+              - text: Home
+          - listitem [ref=f3e13]:
+            - link [ref=f3e14] [cursor=pointer]:
+              - /url: /Intake/SelectIntake
+              - generic [ref=f3e15]: 
+              - text: New Intake
+          - listitem [ref=f3e16]:
+            - link [ref=f3e17] [cursor=pointer]:
+              - /url: /SubmittedIntake
+              - generic [ref=f3e18]: 
+              - text: Search Intakes
+          - listitem [ref=f3e19]:
+            - link [ref=f3e20] [cursor=pointer]:
+              - /url: /ClientManagement/Index?tenantId=81dc448b-3140-47d5-c523-08d66776008d
+              - generic [ref=f3e21]: 
+              - text: Client Management
+          - listitem [ref=f3e22]:
+            - link [ref=f3e23] [cursor=pointer]:
+              - /url: /PhoneEscalationManagement
+              - generic [ref=f3e24]: 
+              - text: Phone Escalations
+          - listitem [ref=f3e25]:
+            - link [ref=f3e26] [cursor=pointer]:
+              - /url: /Transactions
+              - generic [ref=f3e27]: 
+              - text: Transactions
+          - listitem [ref=f3e28]:
+            - link [ref=f3e29] [cursor=pointer]:
+              - /url: /Dissemination
+              - generic [ref=f3e30]: 
+              - text: Disseminations
+          - listitem [ref=f3e31]:
+            - link [ref=f3e32] [cursor=pointer]:
+              - /url: /SimpleCase
+              - generic [ref=f3e33]: 
+              - text: SimpleCase Mgmt
+          - listitem [ref=f3e34]:
+            - link [ref=f3e35] [cursor=pointer]:
+              - /url: /ScriptManagement
+              - generic [ref=f3e36]: 
+              - text: Script Management
+          - listitem [ref=f3e37]:
+            - link [ref=f3e38] [cursor=pointer]:
+              - /url: /Configuration
+              - generic [ref=f3e39]: 
+              - text: Configuration
+          - listitem [ref=f3e40]:
+            - generic [ref=f3e41] [cursor=pointer]:
+              - generic [ref=f3e42]: 
+              - text: Truth Tables
+              - generic [ref=f3e43]: 
+          - text:   
+          - listitem [ref=f3e44]:
+            - generic [ref=f3e45] [cursor=pointer]:
+              - generic [ref=f3e46]: 
+              - text: Reporting
+              - generic [ref=f3e47]: 
+          - listitem [ref=f3e48]:
+            - link [ref=f3e49] [cursor=pointer]:
+              - /url: /LogicModuleManagement
+              - generic [ref=f3e50]: 
+              - text: Logic Module Mgmt
+          - listitem [ref=f3e51]:
+            - link [ref=f3e52] [cursor=pointer]:
+              - /url: /Archives
+              - generic [ref=f3e53]: 
+              - text: Search Archives
+    - navigation [ref=f3e54]: You are currently logged into QA. This is for testing purposes only.
+    - navigation [ref=f3e55]:
+      - generic [ref=f3e56]: 
+      - img "Company logo" [ref=f3e60] [cursor=pointer]
+      - list [ref=f3e61]:
+        - text: 
+        - listitem [ref=f3e62]:
+          - link "Open Escalations 30" [ref=f3e120] [cursor=pointer]:
+            - /url: /PhoneEscalationManagement
+            - text: Open Escalations
+            - generic [ref=f3e64]: "30"
+        - listitem [ref=f3e65]:
+          - generic [ref=f3e66] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f3e67]: 
+            - text: Notepad
+        - listitem [ref=f3e68]:
+          - generic [ref=f3e69] [cursor=pointer]:
+            - generic [ref=f3e70]: 
+            - text: Logout
+        - listitem [ref=f3e71]:
+          - link " AdminBarts" [ref=f3e72] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=f3e73]: 
+            - text: AdminBarts
+  - main [ref=f3e74]:
+    - generic [ref=f3e78]:
+      - link "START INTAKE" [ref=f3e80] [cursor=pointer]:
+        - /url: /Intake/SelectIntake
+      - generic [ref=f3e81]:
+        - tablist [ref=f3e82]:
+          - listitem [ref=f3e83] [cursor=pointer]:
+            - tab "My Intakes" [selected] [ref=f3e84]
+          - listitem [ref=f3e85] [cursor=pointer]:
+            - tab "Resume Intakes" [selected] [ref=f3e86]
+          - listitem [ref=f3e87] [cursor=pointer]:
+            - tab "Cancelled Intakes" [selected] [ref=f3e88]
+          - listitem [ref=f3e89] [cursor=pointer]:
+            - tab "Failed Disseminations" [selected] [ref=f3e90]
+        - tabpanel "My Intakes" [ref=f3e92]:
+          - generic [ref=f3e121]:
+            - generic [ref=f3e122]:
+              - generic [ref=f3e124]:
+                - generic [ref=f3e125]: Show entries
+                - combobox [aria-hidden] [ref=f3e126]
+                - combobox [ref=f3e129] [cursor=pointer]:
+                  - generic "10" [ref=f3e130]
+              - searchbox "Filter Results" [ref=f3e133]
+            - table [ref=f3e94]:
+              - rowgroup [ref=f3e95]:
+                - row [ref=f3e142]:
+                  - 'columnheader "Claimant Claimant: Activate to invert sorting" [ref=f3e143] [cursor=pointer]':
+                    - generic [ref=f3e144]:
+                      - generic [ref=f3e145]: Claimant
+                      - 'button "Claimant: Activate to invert sorting" [ref=f3e146]'
+                  - 'columnheader "Client Client: Activate to sort" [ref=f3e147] [cursor=pointer]':
+                    - generic [ref=f3e148]:
+                      - generic [ref=f3e149]: Client
+                      - 'button "Client: Activate to sort" [ref=f3e150]'
+                  - 'columnheader "LOB LOB: Activate to sort" [ref=f3e151] [cursor=pointer]':
+                    - generic [ref=f3e152]:
+                      - generic [ref=f3e153]: LOB
+                      - 'button "LOB: Activate to sort" [ref=f3e154]'
+                  - 'columnheader "Intake Date Intake Date: Activate to sort" [ref=f3e155] [cursor=pointer]':
+                    - generic [ref=f3e156]:
+                      - generic [ref=f3e157]: Intake Date
+                      - 'button "Intake Date: Activate to sort" [ref=f3e158]'
+                  - 'columnheader "Handled By Handled By: Activate to sort" [ref=f3e159] [cursor=pointer]':
+                    - generic [ref=f3e160]:
+                      - generic [ref=f3e161]: Handled By
+                      - 'button "Handled By: Activate to sort" [ref=f3e162]'
+                  - 'columnheader "Status Status: Activate to sort" [ref=f3e163] [cursor=pointer]':
+                    - generic [ref=f3e164]:
+                      - generic [ref=f3e165]: Status
+                      - 'button "Status: Activate to sort" [ref=f3e166]'
+                  - 'columnheader "Action Action: Activate to sort" [ref=f3e167] [cursor=pointer]':
+                    - generic [ref=f3e168]:
+                      - generic [ref=f3e169]: Action
+                      - 'button "Action: Activate to sort" [ref=f3e170]'
+              - rowgroup [ref=f3e171]:
+                - row [ref=f3e172]:
+                  - cell [ref=f3e173]
+                  - cell "PEPSICO" [ref=f3e174]
+                  - cell "Auto Liability,Crime,Disability,General Liability,Informational,Job Accommodation,Leave of Absence,Professional Liability,Property,Workers' Compensation" [ref=f3e175]
+                  - cell "09/23/2026 4:41:34 PM" [ref=f3e176]
+                  - cell "charlies gallado" [ref=f3e177]
+                  - cell "Intake Selected from Triage" [ref=f3e178]
+                  - cell "" [ref=f3e179]
+                - row [ref=f3e182]:
+                  - cell [ref=f3e183]
+                  - cell "PEPSICO" [ref=f3e184]
+                  - cell "Auto Liability,Crime,Disability,General Liability,Informational,Job Accommodation,Leave of Absence,Professional Liability,Property,Workers' Compensation" [ref=f3e185]
+                  - cell "09/23/2026 4:25:35 PM" [ref=f3e186]
+                  - cell "charlies gallado" [ref=f3e187]
+                  - cell "Intake Selected from Triage" [ref=f3e188]
+                  - cell "" [ref=f3e189]
+                - row [ref=f3e192]:
+                  - cell [ref=f3e193]
+                  - cell "Private Client Select" [ref=f3e194]
+                  - cell "Property" [ref=f3e195]
+                  - cell "09/23/2026 4:22:49 PM" [ref=f3e196]
+                  - cell "charlies gallado" [ref=f3e197]
+                  - cell "Submitted" [ref=f3e198]
+                  - cell "" [ref=f3e199]
+                - row [ref=f3e202]:
+                  - cell [ref=f3e203]
+                  - cell "VELOCITY RISK UNDERWRITERS, LLC - PERSONAL" [ref=f3e204]
+                  - cell "General Liability" [ref=f3e205]
+                  - cell "09/23/2026 4:20:10 PM" [ref=f3e206]
+                  - cell "charlies gallado" [ref=f3e207]
+                  - cell "Submitted" [ref=f3e208]
+                  - cell "" [ref=f3e209]
+                - row [ref=f3e212]:
+                  - cell [ref=f3e213]
+                  - cell "PEPSICO" [ref=f3e214]
+                  - cell "Auto Liability,Crime,Disability,General Liability,Informational,Job Accommodation,Leave of Absence,Professional Liability,Property,Workers' Compensation" [ref=f3e215]
+                  - cell "09/23/2026 3:02:49 PM" [ref=f3e216]
+                  - cell "charlies gallado" [ref=f3e217]
+                  - cell "Intake Selected from Triage" [ref=f3e218]
+                  - cell "" [ref=f3e219]
+                - row [ref=f3e222]:
+                  - cell [ref=f3e223]
+                  - cell "PEPSICO" [ref=f3e224]
+                  - cell "Auto Liability" [ref=f3e225]
+                  - cell "09/23/2026 2:56:26 PM" [ref=f3e226]
+                  - cell "charlies gallado" [ref=f3e227]
+                  - cell "Submitted" [ref=f3e228]
+                  - cell "" [ref=f3e229]
+                - row [ref=f3e232]:
+                  - cell [ref=f3e233]
+                  - cell "PEPSICO" [ref=f3e234]
+                  - cell "Auto Liability,Crime,Disability,General Liability,Informational,Job Accommodation,Leave of Absence,Professional Liability,Property,Workers' Compensation" [ref=f3e235]
+                  - cell "09/23/2026 2:54:03 PM" [ref=f3e236]
+                  - cell "charlies gallado" [ref=f3e237]
+                  - cell "Intake Selected from Triage" [ref=f3e238]
+                  - cell "" [ref=f3e239]
+                - row [ref=f3e242]:
+                  - cell [ref=f3e243]
+                  - cell "LOWE'S COMPANIES, INC" [ref=f3e244]
+                  - cell "General Liability" [ref=f3e245]
+                  - cell "09/23/2026 2:33:20 PM" [ref=f3e246]
+                  - cell "charlies gallado" [ref=f3e247]
+                  - cell "Submitted" [ref=f3e248]
+                  - cell "" [ref=f3e249]
+                - row [ref=f3e252]:
+                  - cell [ref=f3e253]
+                  - cell "SAVANNAH RIVER NUCLEAR SOLUTIONS LLC" [ref=f3e254]
+                  - cell "General Liability" [ref=f3e255]
+                  - cell "09/23/2026 12:47:58 PM" [ref=f3e256]
+                  - cell "charlies gallado" [ref=f3e257]
+                  - cell "Submitted" [ref=f3e258]
+                  - cell "" [ref=f3e259]
+                - row [ref=f3e262]:
+                  - cell [ref=f3e263]
+                  - cell "PEPSICO" [ref=f3e264]
+                  - cell "Auto Liability" [ref=f3e265]
+                  - cell "08/21/2026 10:23:18 AM" [ref=f3e266]
+                  - cell "charlies gallado" [ref=f3e267]
+                  - cell "Submitted" [ref=f3e268]
+                  - cell "" [ref=f3e269]
+            - generic [ref=f3e272]:
+              - status [ref=f3e274]: Showing 1 to 10 of 100 entries
+              - navigation "pagination" [ref=f3e277]:
+                - list [ref=f3e278]:
+                  - listitem:
+                    - generic "Previous"
+                  - listitem [ref=f3e279]:
+                    - link "1" [ref=f3e280] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=f3e281]:
+                    - link "2" [ref=f3e282] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=f3e283]:
+                    - link "3" [ref=f3e284] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=f3e285]:
+                    - link "4" [ref=f3e286] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=f3e287]:
+                    - link "5" [ref=f3e288] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=f3e289]:
+                    - link "…" [ref=f3e290] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=f3e291]:
+                    - link "10" [ref=f3e292] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=f3e293]:
+                    - link "Next" [ref=f3e294] [cursor=pointer]:
+                      - /url: "#"
+  - contentinfo [aria-hidden] [ref=f3e104]:
+    - generic [ref=f3e107]:
+      - generic [ref=f3e108]:
+        - link [ref=f3e110] [cursor=pointer]:
+          - /url: /Login/Home
+          - text: Home
+        - text: "|"
+        - generic [ref=f3e111]:
+          - link [ref=f3e112] [cursor=pointer]:
+            - /url: https://www.sedgwick.com/privacy
+            - text: Privacy Notice
+          - text: "|"
+        - link [ref=f3e114] [cursor=pointer]:
+          - /url: https://www.sedgwick.com/termsandconditions
+          - text: Terms & Conditions
+        - text: "|"
+        - generic [ref=f3e115]: Logout
+      - generic [ref=f3e116]: © 2026 Sedgwick Build Date Thu, 15 Oct 2026 16:57:20 GMT Build SedgwickGlobalIntake-master-20261015.1 QA
+      - generic [ref=f3e117]: "Last Login: 10/17/2026 3:18:50 PM from 189.220.43.81"
+  - text: 

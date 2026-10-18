@@ -1,0 +1,21 @@
+- generic [active] [ref=f4e1]:
+  - banner:       
+  - main [ref=f4e2]:
+    - list [ref=f4e13]:
+      - listitem [ref=f4e14]:
+        - tab "Clients" [ref=f4e15] [cursor=pointer]
+  - contentinfo [aria-hidden] [ref=f4e16]:
+    - generic [ref=f4e19]:
+      - generic [ref=f4e20]:
+        - generic [ref=f4e21]:
+          - link [ref=f4e22] [cursor=pointer]:
+            - /url: https://www.sedgwick.com/privacy
+            - text: Privacy Notice
+          - text: "|"
+        - link [ref=f4e24] [cursor=pointer]:
+          - /url: https://www.sedgwick.com/termsandconditions
+          - text: Terms & Conditions
+        - text: "|"
+        - generic [ref=f4e25]: Logout
+      - generic [ref=f4e26]: © 2026 Sedgwick Build Date Thu, 15 Oct 2026 16:57:20 GMT Build SedgwickGlobalIntake-master-20261015.1
+  - text: 

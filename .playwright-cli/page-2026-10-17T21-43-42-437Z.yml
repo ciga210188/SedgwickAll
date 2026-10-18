@@ -1,0 +1,40 @@
+- generic [ref=f9e1]:
+  - img "Sedgwick Homepage" [ref=f9e2]
+  - main "Login" [ref=f9e3]:
+    - generic [ref=f9e5]:
+      - link [ref=f9e9] [cursor=pointer]:
+        - /url: /Login
+        - img "Sedgwick Homepage" [ref=f9e10]
+      - generic [ref=f9e14]:
+        - heading "Login" [level=1] [ref=f9e16]
+        - generic [ref=f9e17]:
+          - alert [ref=f9e19]:
+            - text: Following 2 error(s) were found
+            - list [ref=f9e20]:
+              - listitem [ref=f9e21]: The System could not validate your information. Make sure your Username and Password are correct and try again.
+              - listitem [ref=f9e22]: The field Password must be a string with a minimum length of 8 and a maximum length of 256.
+          - generic [ref=f9e23]:
+            - generic [aria-hidden] [ref=f9e24]: 
+            - textbox "Username" [invalid] [ref=f9e25]: test
+            - generic [ref=f9e26]: Username
+          - generic [ref=f9e27]:
+            - generic [aria-hidden] [ref=f9e28]: 
+            - textbox "Password" [active] [invalid] [ref=f9e29]
+            - generic [ref=f9e30]: Password
+          - link "Forgot Your Password?" [ref=f9e32] [cursor=pointer]:
+            - /url: /Account/ForgotPassword
+          - link "Forgot Username?" [ref=f9e34] [cursor=pointer]:
+            - /url: /Account/ForgotUserName
+          - button "BEGIN" [ref=f9e36] [cursor=pointer]
+      - generic [ref=f9e37]:
+        - generic [ref=f9e38]:
+          - generic [ref=f9e39]:
+            - link "Privacy Notice" [ref=f9e40] [cursor=pointer]:
+              - /url: https://www.sedgwick.com/privacy
+            - text: "|"
+          - link "Terms & Conditions" [ref=f9e42] [cursor=pointer]:
+            - /url: https://www.sedgwick.com/termsandconditions
+        - generic [ref=f9e43]: © 2026 Sedgwick Claims Management Services Inc.
+  - generic [ref=f9e44] [cursor=pointer]:
+    - button "Manage Cookies" [ref=f9e46]
+    - text: Manage Cookies

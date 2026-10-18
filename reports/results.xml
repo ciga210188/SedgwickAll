@@ -1,0 +1,10 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="21.611657000000122">
+<testsuite name="api\sedgwick-auth-claim.spec.ts" timestamp="2026-10-18T00:37:08.250Z" hostname="chromium" tests="1" failures="0" skipped="0" time="18.373" errors="0">
+<testcase name="Sedgwick authentication and claim API @api › POST - Submit claim returns an incident number @master @regression @end-to-end @api" classname="api\sedgwick-auth-claim.spec.ts" time="18.373">
+<system-out>
+<![CDATA[IncidentNumber: 4A2610K4P5Q0001
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
