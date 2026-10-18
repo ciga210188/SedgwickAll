@@ -1,115 +1,62 @@
-<testsuites id="" name="" tests="8" failures="0" skipped="3" errors="1" time="25.716531">
-<testsuite name="api/sedgwick-auth-claim.spec.ts" timestamp="2026-10-18T23:23:06.229Z" hostname="chromium" tests="4" failures="0" skipped="0" time="6.764" errors="0">
-<testcase name="Sedgwick authentication and claim API @api › POST - Successful login returns an authentication token @master @sanity @api" classname="api/sedgwick-auth-claim.spec.ts" time="1.149">
+<testsuites id="" name="" tests="8" failures="0" skipped="0" errors="0" time="50.916503">
+<testsuite name="api/sedgwick-auth-claim.spec.ts" timestamp="2026-10-18T23:40:23.646Z" hostname="chromium" tests="4" failures="0" skipped="0" time="6.698" errors="0">
+<testcase name="Sedgwick authentication and claim API @api › POST - Successful login returns an authentication token @master @sanity @api" classname="api/sedgwick-auth-claim.spec.ts" time="1.101">
 </testcase>
-<testcase name="Sedgwick authentication and claim API @api › POST - Invalid login returns the expected credential error @master @regression @api" classname="api/sedgwick-auth-claim.spec.ts" time="0.639">
+<testcase name="Sedgwick authentication and claim API @api › POST - Invalid login returns the expected credential error @master @regression @api" classname="api/sedgwick-auth-claim.spec.ts" time="0.724">
 </testcase>
-<testcase name="Sedgwick authentication and claim API @api › POST - Create claim returns a redirect URL @master @regression @end-to-end @api" classname="api/sedgwick-auth-claim.spec.ts" time="2.11">
+<testcase name="Sedgwick authentication and claim API @api › POST - Create claim returns a redirect URL @master @regression @end-to-end @api" classname="api/sedgwick-auth-claim.spec.ts" time="1.856">
 <system-out>
-<![CDATA[Generated claim URL: https://intake-qa1.sedgwick.com/u/dsp/mysedgwickwc?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJbnRha2VJbnN0YW5jZUlkIjoiMDdiNDczNzItMGUzYi00NDlhLWNiNTktMDhkZjJjN2RhOTgyIiwiUGFnZSI6IkNBTExFUl9JTkZPUk1BVElPTiIsIm5iZiI6MTc5MjM2NTc5MCwiZXhwIjoxNzk0MTY1NzkwLCJpYXQiOjE3OTIzNjU3OTB9.FfqEB8N51adgLv3SY0d3gDgMwGaHFKGpJGcU_YspvUI
+<![CDATA[Generated claim URL: https://intake-qa1.sedgwick.com/u/dsp/mysedgwickwc?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJbnRha2VJbnN0YW5jZUlkIjoiZDI2ZmM1NWItZDQxZi00Mjk5LWNiNjEtMDhkZjJjN2RhOTgyIiwiUGFnZSI6IkNBTExFUl9JTkZPUk1BVElPTiIsIm5iZiI6MTc5MjM2NjgyOCwiZXhwIjoxNzk0MTY2ODI4LCJpYXQiOjE3OTIzNjY4Mjh9.T766Ii8TUu0AFnx06B2IYxUnOEQ6PZt4npdYUvPXw_s
 ]]>
 </system-out>
 </testcase>
-<testcase name="Sedgwick authentication and claim API @api › POST - Submit claim returns an incident number @master @regression @end-to-end @api" classname="api/sedgwick-auth-claim.spec.ts" time="2.866">
+<testcase name="Sedgwick authentication and claim API @api › POST - Submit claim returns an incident number @master @regression @end-to-end @api" classname="api/sedgwick-auth-claim.spec.ts" time="3.017">
 <system-out>
-<![CDATA[IncidentNumber: 4A2610K4P6P0001
+<![CDATA[IncidentNumber: 4A2610K4P6Y0001
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="web/sedgwick-authentication.spec.ts" timestamp="2026-10-18T23:23:06.229Z" hostname="chromium" tests="4" failures="0" skipped="3" time="0.018" errors="1">
-<testcase name="Sedgwick web scenarios › Valid customer login @master @sanity @regression @web" classname="web/sedgwick-authentication.spec.ts" time="0.018">
+<testsuite name="web/sedgwick-authentication.spec.ts" timestamp="2026-10-18T23:40:23.646Z" hostname="chromium" tests="4" failures="0" skipped="0" time="32.264" errors="0">
+<testcase name="Sedgwick web scenarios › Valid customer login @master @sanity @regression @web" classname="web/sedgwick-authentication.spec.ts" time="7.274">
 <properties>
 <property name="serial" value="">
 </property>
 </properties>
 <system-out>
-<![CDATA[
-[[ATTACHMENT|../test-results/web-sedgwick-authenticatio-9acd5-aster-sanity-regression-web-chromium/error-context.md]]
-
-[[ATTACHMENT|../test-results/web-sedgwick-authenticatio-9acd5-aster-sanity-regression-web-chromium-retry1/error-context.md]]
-
-[[ATTACHMENT|../test-results/web-sedgwick-authenticatio-9acd5-aster-sanity-regression-web-chromium-retry1/trace.zip]]
-
-[[ATTACHMENT|../test-results/web-sedgwick-authenticatio-9acd5-aster-sanity-regression-web-chromium-retry2/error-context.md]]
+<![CDATA[✅ Valid customer login completed successfully!
 ]]>
 </system-out>
-<error message="browserType.launch: Executable doesn&apos;t exist at /ms-playwright/chromium-1248/chrome-linux64/chrome" type="Error">
-<![CDATA[  [chromium] › web/sedgwick-authentication.spec.ts:29:7 › Sedgwick web scenarios › Valid customer login @master @sanity @regression @web 
-
-    Error: browserType.launch: Executable doesn't exist at /ms-playwright/chromium-1248/chrome-linux64/chrome
-    ╔════════════════════════════════════════════════════════╗
-    ║ Looks like Playwright was just updated to 1.64.1.      ║
-    ║ Please update docker image as well.                    ║
-    ║ -  current: mcr.microsoft.com/playwright:v1.62.0-noble ║
-    ║ - required: mcr.microsoft.com/playwright:v1.64.1-noble ║
-    ║                                                        ║
-    ║ <3 Playwright Team                                     ║
-    ╚════════════════════════════════════════════════════════╝
-
-    Error Context: ../test-results/web-sedgwick-authenticatio-9acd5-aster-sanity-regression-web-chromium/error-context.md
-
-    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
-
-    Error: browserType.launch: Executable doesn't exist at /ms-playwright/chromium-1248/chrome-linux64/chrome
-    ╔════════════════════════════════════════════════════════╗
-    ║ Looks like Playwright was just updated to 1.64.1.      ║
-    ║ Please update docker image as well.                    ║
-    ║ -  current: mcr.microsoft.com/playwright:v1.62.0-noble ║
-    ║ - required: mcr.microsoft.com/playwright:v1.64.1-noble ║
-    ║                                                        ║
-    ║ <3 Playwright Team                                     ║
-    ╚════════════════════════════════════════════════════════╝
-
-    Error Context: ../test-results/web-sedgwick-authenticatio-9acd5-aster-sanity-regression-web-chromium-retry1/error-context.md
-
-    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
-    ../test-results/web-sedgwick-authenticatio-9acd5-aster-sanity-regression-web-chromium-retry1/trace.zip
-    Usage:
-
-        npx playwright show-trace ../test-results/web-sedgwick-authenticatio-9acd5-aster-sanity-regression-web-chromium-retry1/trace.zip
-
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
-
-    Error: browserType.launch: Executable doesn't exist at /ms-playwright/chromium-1248/chrome-linux64/chrome
-    ╔════════════════════════════════════════════════════════╗
-    ║ Looks like Playwright was just updated to 1.64.1.      ║
-    ║ Please update docker image as well.                    ║
-    ║ -  current: mcr.microsoft.com/playwright:v1.62.0-noble ║
-    ║ - required: mcr.microsoft.com/playwright:v1.64.1-noble ║
-    ║                                                        ║
-    ║ <3 Playwright Team                                     ║
-    ╚════════════════════════════════════════════════════════╝
-
-    Error Context: ../test-results/web-sedgwick-authenticatio-9acd5-aster-sanity-regression-web-chromium-retry2/error-context.md
+</testcase>
+<testcase name="Sedgwick web scenarios › Invalid login rejects invalid credentials @master @regression @datadriven @web" classname="web/sedgwick-authentication.spec.ts" time="6.706">
+<properties>
+<property name="serial" value="">
+</property>
+</properties>
+<system-out>
+<![CDATA[✅ Invalid login rejection completed successfully!
 ]]>
-</error>
+</system-out>
 </testcase>
-<testcase name="Sedgwick web scenarios › Invalid login rejects invalid credentials @master @regression @datadriven @web" classname="web/sedgwick-authentication.spec.ts">
+<testcase name="Sedgwick web scenarios › Customer logout @master @sanity @regression @web" classname="web/sedgwick-authentication.spec.ts" time="7.42">
 <properties>
 <property name="serial" value="">
 </property>
 </properties>
-<skipped>
-</skipped>
+<system-out>
+<![CDATA[✅ Customer logout completed successfully!
+]]>
+</system-out>
 </testcase>
-<testcase name="Sedgwick web scenarios › Customer logout @master @sanity @regression @web" classname="web/sedgwick-authentication.spec.ts">
+<testcase name="Sedgwick web scenarios › Search and open a client from Client Management @master @regression @end-to-end @web" classname="web/sedgwick-authentication.spec.ts" time="10.864">
 <properties>
 <property name="serial" value="">
 </property>
 </properties>
-<skipped>
-</skipped>
-</testcase>
-<testcase name="Sedgwick web scenarios › Search and open a client from Client Management @master @regression @end-to-end @web" classname="web/sedgwick-authentication.spec.ts">
-<properties>
-<property name="serial" value="">
-</property>
-</properties>
-<skipped>
-</skipped>
+<system-out>
+<![CDATA[✅ Client Management search completed successfully!
+]]>
+</system-out>
 </testcase>
 </testsuite>
 </testsuites>
